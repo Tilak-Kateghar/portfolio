@@ -1079,7 +1079,7 @@ footer {
   <div class="hero-inst-line">AIML Student at B V Raju Institute of Technology</div>
 
   <p class="hero-about">
-    I am a third year B.Tech student in Computer Science and Engineering with a specialization in Artificial Intelligence and Machine Learning at B V Raju Institute of Technology. Over time I have realized that I learn best by building, breaking, and fixing real world problems rather than just studying theory. That mindset has pushed me to consistently work on projects that go beyond basic implementations and actually solve real problems.
+    I am a fourth year B.Tech student in Computer Science and Engineering with a specialization in Artificial Intelligence and Machine Learning at B V Raju Institute of Technology. Over time I have realized that I learn best by building, breaking, and fixing real world problems rather than just studying theory. That mindset has pushed me to consistently work on projects that go beyond basic implementations and actually solve real problems.
   </p>
 
   <!-- All-in-one stats — circular -->
@@ -1162,8 +1162,28 @@ footer {
       <div class="proj-arrow">→</div>
     </div>
 
-    <div class="proj-row" onclick="showProject('instaprint')">
+    <div class="proj-row" onclick="showProject('hybridsearch')">
       <div class="proj-num">02</div>
+      <div class="proj-info">
+        <div class="proj-title">
+          HybridSearch AI — Context-Aware RAG System
+          <span class="proj-badge">Production Grade</span>
+        </div>
+        <div class="proj-meta">
+          <span class="proj-type">AI/ML · RAG · Retrieval Systems · Full Stack</span>
+          <div class="proj-tech-pills">
+            <span class="proj-pill">FastAPI</span>
+            <span class="proj-pill">Pinecone</span>
+            <span class="proj-pill">Redis</span>
+            <span class="proj-pill">Sentence Transformers</span>
+          </div>
+        </div>
+      </div>
+      <div class="proj-arrow">→</div>
+    </div>
+
+    <div class="proj-row" onclick="showProject('instaprint')">
+      <div class="proj-num">03</div>
       <div class="proj-info">
         <div class="proj-title">InstaPrint — Printing Workflow Platform</div>
         <div class="proj-meta">
@@ -1180,7 +1200,7 @@ footer {
     </div>
 
     <div class="proj-row" onclick="showProject('wanderlust')">
-      <div class="proj-num">03</div>
+      <div class="proj-num">04</div>
       <div class="proj-info">
         <div class="proj-title">WanderLust — Travel Listing Platform</div>
         <div class="proj-meta">
@@ -1197,7 +1217,7 @@ footer {
     </div>
 
     <div class="proj-row" onclick="showProject('retail')">
-      <div class="proj-num">04</div>
+      <div class="proj-num">05</div>
       <div class="proj-info">
         <div class="proj-title">Retail Product Classification System</div>
         <div class="proj-meta">
@@ -1285,6 +1305,178 @@ footer {
       Live Demo ↗
     </a>
   </div>
+</template>
+
+<template id="tpl-hybridsearch">
+
+  <div class="pd-sup">Production Grade AI Retrieval System</div>
+
+  <div class="pd-title">
+    HybridSearch AI — Context-Aware Retrieval-Augmented Intelligence System
+  </div>
+
+  <div class="pd-subtitle">
+    AI/ML · Hybrid Retrieval · Vector Search · RAG Architecture
+  </div>
+
+  <p class="pd-overview">
+    HybridSearch AI is a production-grade Retrieval-Augmented Generation (RAG) system designed to provide highly relevant and context-aware answers from unstructured text and YouTube video content. The system combines semantic vector search, keyword-based retrieval, reranking, and strict prompt grounding to significantly reduce hallucinations and improve answer quality.
+  </p>
+
+  <p class="pd-overview">
+    Unlike traditional semantic-only search systems, this project integrates hybrid retrieval pipelines, Pinecone vector databases, Redis caching, reranking models, and context-constrained LLM reasoning to build a scalable and intelligent retrieval architecture suitable for real-world AI applications.
+  </p>
+
+  <div class="pd-hr"></div>
+
+  <div class="pd-result-row">
+
+    <div class="pd-result-box">
+      <div class="pd-result-val">Hybrid</div>
+      <div class="pd-result-key">Retrieval</div>
+    </div>
+
+    <div class="pd-result-box">
+      <div class="pd-result-val">Redis</div>
+      <div class="pd-result-key">Caching</div>
+    </div>
+
+    <div class="pd-result-box">
+      <div class="pd-result-val">RAG</div>
+      <div class="pd-result-key">Architecture</div>
+    </div>
+
+  </div>
+
+  <div class="pd-hr"></div>
+
+  <div class="pd-block-title">Key Features</div>
+
+  <ul class="pd-points">
+    <li>Implemented hybrid retrieval using semantic vector similarity and BM25 keyword search</li>
+
+    <li>Integrated Pinecone vector database for scalable semantic retrieval</li>
+
+    <li>Added reranking using Cross-Encoder models to improve document relevance</li>
+
+    <li>Built Redis-based multi-layer caching to reduce latency and optimize responses</li>
+
+    <li>Implemented context-constrained prompting to reduce hallucinations in LLM responses</li>
+
+    <li>Added YouTube transcript ingestion and Whisper fallback transcription pipeline</li>
+
+    <li>Designed a production-oriented architecture with modular retrieval pipelines</li>
+
+    <li>Developed a Chrome Extension frontend for webpage-aware querying</li>
+  </ul>
+
+  <div class="pd-hr"></div>
+
+  <div class="pd-two">
+
+    <div>
+
+      <div class="pd-block-title">Architecture</div>
+
+      <ul class="pd-points">
+        <li>FastAPI backend with modular API structure</li>
+
+        <li>Pinecone serverless vector database integration</li>
+
+        <li>Redis caching for retrieval and answer optimization</li>
+
+        <li>Chrome extension frontend for webpage querying</li>
+
+        <li>Render deployment with scalable architecture</li>
+      </ul>
+
+    </div>
+
+    <div>
+
+      <div class="pd-block-title">AI Pipeline</div>
+
+      <ul class="pd-points">
+        <li>Sentence Transformers for semantic embeddings</li>
+
+        <li>Cross-Encoder reranking for retrieval refinement</li>
+
+        <li>Whisper-based fallback transcription system</li>
+
+        <li>Strict prompt grounding for hallucination reduction</li>
+
+        <li>Hybrid semantic + lexical retrieval pipeline</li>
+      </ul>
+
+    </div>
+
+  </div>
+
+  <div class="pd-hr"></div>
+
+  <div class="pd-block-title">Tech Stack</div>
+
+  <div class="pd-tech-row">
+
+    <span class="pd-tech-tag">Python</span>
+
+    <span class="pd-tech-tag">FastAPI</span>
+
+    <span class="pd-tech-tag">Redis</span>
+
+    <span class="pd-tech-tag">Pinecone</span>
+
+    <span class="pd-tech-tag">Sentence Transformers</span>
+
+    <span class="pd-tech-tag">Cross Encoder</span>
+
+    <span class="pd-tech-tag">Whisper</span>
+
+    <span class="pd-tech-tag">RAG</span>
+
+    <span class="pd-tech-tag">Vector Search</span>
+
+    <span class="pd-tech-tag">Chrome Extension</span>
+
+    <span class="pd-tech-tag">LLMs</span>
+
+    <span class="pd-tech-tag">Render</span>
+
+  </div>
+
+  <div class="pd-block-title">Links</div>
+
+  <div class="pd-links">
+
+    <a href="https://github.com/Tilak-Kateghar/hybridsearch-ai"
+       target="_blank"
+       class="pd-link">
+
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M12 .297c-6.63 0-12 5.373-12 12 
+        0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 
+        0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61
+        C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 
+        1.205.084 1.838 1.236 1.838 1.236 
+        1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605
+        -2.665-.3-5.466-1.332-5.466-5.93 
+        0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 
+        0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 
+        1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23 
+        .645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 
+        0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 
+        0 1.606-.015 2.896-.015 3.286 
+        0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297
+        c0-6.627-5.373-12-12-12"
+        fill="#2C2416"/>
+      </svg>
+
+      GitHub
+
+    </a>
+
+  </div>
+
 </template>
 
 <template id="tpl-instaprint">
@@ -1500,6 +1692,7 @@ footer {
       <div class="skill-card"><div class="sc-name">MongoDB</div><div class="sc-sub">Document-based NoSQL</div></div>
       <div class="skill-card"><div class="sc-name">Prisma ORM</div><div class="sc-sub">Type-safe DB access</div></div>
       <div class="skill-card"><div class="sc-name">Mongoose</div><div class="sc-sub">MongoDB object modelling</div></div>
+      <div class="skill-card"><div class="sc-name">Vector DB</div><div class="sc-sub">Vector Database to Store Embeddings</div></div>
     </div>
   </div>
   <div class="skill-panel" id="sp-aiml">
@@ -1513,6 +1706,76 @@ footer {
       <div class="skill-card"><div class="sc-name">FastText</div><div class="sc-sub">Word embeddings for text</div></div>
       <div class="skill-card"><div class="sc-name">Cross-Modal Attention</div><div class="sc-sub">Multimodal temporal alignment</div></div>
       <div class="skill-card"><div class="sc-name">Transfer Learning</div><div class="sc-sub">Pretrained feature extraction</div></div>
+      <!-- ADD THESE SKILLS INSIDE YOUR EXISTING SKILL PANELS -->
+
+    <!-- ========================================= -->
+    <!-- ADD INSIDE AI/ML SKILLS PANEL -->
+    <!-- ========================================= -->
+
+    <div class="skill-card">
+    <div class="sc-name">Retrieval-Augmented Generation (RAG)</div>
+    <div class="sc-sub">Context-aware AI systems using hybrid retrieval pipelines</div>
+    </div>
+
+    <div class="skill-card">
+    <div class="sc-name">Vector Databases</div>
+    <div class="sc-sub">Semantic retrieval using Pinecone vector search</div>
+    </div>
+
+    <div class="skill-card">
+    <div class="sc-name">LLM Engineering</div>
+    <div class="sc-sub">Prompt grounding, hallucination reduction, and response orchestration</div>
+    </div>
+
+    <div class="skill-card">
+    <div class="sc-name">Sentence Transformers</div>
+    <div class="sc-sub">Semantic embeddings and similarity search pipelines</div>
+    </div>
+
+    <div class="skill-card">
+    <div class="sc-name">Cross-Encoder Reranking</div>
+    <div class="sc-sub">Improving retrieval quality using reranking architectures</div>
+    </div>
+
+    <div class="skill-card">
+    <div class="sc-name">Whisper AI</div>
+    <div class="sc-sub">Speech transcription and audio processing pipelines</div>
+    </div>
+
+
+    <!-- ========================================= -->
+    <!-- ADD INSIDE BACKEND / DEVELOPMENT SKILLS -->
+    <!-- ========================================= -->
+
+    <div class="skill-card">
+    <div class="sc-name">FastAPI</div>
+    <div class="sc-sub">High-performance backend APIs and scalable AI services</div>
+    </div>
+
+    <div class="skill-card">
+    <div class="sc-name">Redis</div>
+    <div class="sc-sub">Caching, latency optimization, and session management</div>
+    </div>
+
+    <div class="skill-card">
+    <div class="sc-name">Pinecone</div>
+    <div class="sc-sub">Production-grade vector database integration</div>
+    </div>
+
+    <div class="skill-card">
+    <div class="sc-name">Chrome Extension Development</div>
+    <div class="sc-sub">Frontend extension workflows and webpage-aware querying</div>
+    </div>
+
+    <div class="skill-card">
+    <div class="sc-name">System Design</div>
+    <div class="sc-sub">Designing scalable AI pipelines and modular architectures</div>
+    </div>
+
+    <div class="skill-card">
+    <div class="sc-name">Caching Architectures</div>
+    <div class="sc-sub">Multi-layer retrieval and response caching systems</div>
+    </div>
     </div>
   </div>
   <div class="skill-panel" id="sp-cs">
